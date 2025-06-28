@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #f4f8fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+header h1 {
+  color: #2a72e8;
+  font-size: 1.5rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #2a72e8;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #1f5bc0;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(to bottom, #e8f0fe, #ffffff);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.section h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  flex: 1 1 280px;
+  max-width: 300px;
+}
+
+.card h4 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #2a72e8;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.why-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  gap: 2rem;
+}
+
+.why-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  width: 400px;
+  background: #ccc;
+}
+
+.why-text {
+  flex: 1;
+  max-width: 400px;
+}
+
+.why-text ul {
+  list-style: none;
+  text-align: left;
+}
+
+.why-text li {
+  margin-bottom: 1.5rem;
+}
+
+.why-text strong {
+  display: block;
+  font-weight: 600;
+  color: #2a72e8;
+}
+
+footer {
+  background: #fff7e6;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #a66a00;
+  border-top: 1px solid #ffd080;
+}
+
+.privacy-note {
+  background: #f9f9f9;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+  color: #888;
+}
